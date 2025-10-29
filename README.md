@@ -51,7 +51,15 @@ All datasets used in this project are publicly available:
 
 -Format: Extracted using pandas.read_html()
 
--These datasets will be merged using country names and aligned to World Cup years (using 1–3 years prior averages for each edition).
+**Additional Food & Demographic Features**
+
+-Variables: Sugar supply per capita, milk/dairy supply per capita, fruit & vegetables supply per capita, life expectancy at birth, current health expenditure (% of GDP), urban population (% of total), unemployment rate (% of labor force), obesity prevalence (% of adults)
+
+-Source: FAOSTAT (food supply), World Bank Open Data (economic & demographic), WHO (health statistics)
+
+-Format: CSV download or API-based retrieval                                 
+
+These datasets will be merged using country names and aligned to World Cup years (using 1–3 years prior averages for each edition).
 
 # Tools & Technologies Used #
 
