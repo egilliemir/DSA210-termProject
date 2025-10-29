@@ -25,7 +25,7 @@ All datasets used in this project are publicly available:
 
 -Source: FAOSTAT (United Nations Food and Agriculture Organization)
 
--Format: CSV download
+-Format: CSV 
 
 **Food Expenditure Share**
 
@@ -33,7 +33,7 @@ All datasets used in this project are publicly available:
 
 -Source: FAOSTAT
 
--Format: CSV
+-Format: CSV 
 
 **Economic Indicators**
 
@@ -57,7 +57,7 @@ All datasets used in this project are publicly available:
 
 -Source: FAOSTAT (food supply), World Bank Open Data (economic & demographic), WHO (health statistics)
 
--Format: CSV download or API-based retrieval                                 
+-Format: API / CSV                                
 
 These datasets will be merged using country names and aligned to World Cup years (using 1–3 years prior averages for each edition).
 
