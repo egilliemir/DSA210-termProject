@@ -93,6 +93,13 @@ This project will follow a structured process:
 
 -**Machine Learning Models:** Classification (Logistic Regression / Random Forest) and predicting whether a country reaches Top-8 in the World Cup.
 
+### Exploratory Data Analysis & Statistical Testing
+
+Exploratory analysis compares World Cup Top-8 and non-Top-8 observations using food supply, GDP, and population indicators. Welch t-tests show that individual variables alone are insufficient to explain success, with GDP exhibiting only marginal significance.
+
+These results motivate the use of machine learning models to evaluate the combined and non-linear effects of multiple socio-economic and nutritional factors on World Cup performance.
+
+
 # Expected Findings #
 
 -Countries with stronger food economy indicators may be more likely to reach advanced stages in the World Cup.
