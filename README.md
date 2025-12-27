@@ -99,6 +99,14 @@ Exploratory analysis compares World Cup Top-8 and non-Top-8 observations using f
 
 These results motivate the use of machine learning models to evaluate the combined and non-linear effects of multiple socio-economic and nutritional factors on World Cup performance.
 
+## Machine Learning
+
+We train predictive models to classify World Cup success (Top-8 finish) using socio-economic and nutritional indicators. Due to strong class imbalance, models are evaluated using AUC, F1, and stratified cross-validation.
+
+A baseline logistic regression model captures limited signal and struggles to generalize on a highly imbalanced validation set. A Random Forest model improves performance by learning non-linear relationships and interactions between features.
+
+Feature importance analysis highlights economic capacity (log GDP) and food supply as the most influential predictors, while population plays a secondary role. Overall, the results suggest that World Cup success is driven by a combination of factors rather than any single variable.
+
 
 # Expected Findings #
 
