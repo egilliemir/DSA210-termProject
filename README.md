@@ -123,3 +123,10 @@ Feature importance analysis highlights economic capacity (log GDP) and food supp
 -Confounding variables such as football development programs or player export rates are not included yet.
 
 -In future work, additional sports-specific indicators such as FIFA rankings or academy success metrics could improve the prediction model.
+
+## Final Report
+
+- 📄 PDF report: [dsa210_term_project_report.pdf](reports/dsa210_term_project_report.pdf)
+
+This document presents the full analysis, including data preparation, exploratory data analysis, statistical testing, and machine learning results.
+
